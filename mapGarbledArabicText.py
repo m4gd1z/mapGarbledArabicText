@@ -1,10 +1,6 @@
-# Define the mapping
-# Comprehensive mapping including diacritics
-# Comprehensive mapping for all 256 Arabic characters
-# Comprehensive mapping for Arabic characters including previously missing characters
-# Comprehensive mapping for Arabic characters with corrections
-# Comprehensive mapping for Arabic characters with corrections
-# Comprehensive mapping for Arabic characters including previously missing characters
+# Arabic character mapping including diacritics
+# There are 256 unicode Arabic characters. This script does not 
+# map all of them, but should catch those commonly used.
 windows_1256_to_arabic = {
     # Arabic letters
     'Ç': 'ا',  # Alif
@@ -72,8 +68,8 @@ windows_1256_to_arabic = {
 }
 
 # Read garbled text from an input file
-input_file_path = '/Users/m2/Desktop/input.sql'
-output_file_path = '/Users/m2/Desktop/output.sql'
+input_file_path = '/path/to/input.sql'
+output_file_path = '/path/to/output.sql'
 
 with open(input_file_path, 'r', encoding='utf-8') as file:
     garbled_text = file.read()
