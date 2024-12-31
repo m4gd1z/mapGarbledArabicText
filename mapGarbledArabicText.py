@@ -13,7 +13,7 @@ windows_1256_to_arabic = {
     'Ï': 'د',  # Dal
     'Ð': 'ذ',  # Thal
     'Ñ': 'ر',  # Ra
-    'Ò': 'ز',  # Zay
+    'Ò': 'ز',  # Zayn
     'Ó': 'س',  # Seen
     'Ô': 'ش',  # Sheen
     'Õ': 'ص',  # Sad
@@ -34,12 +34,12 @@ windows_1256_to_arabic = {
     'ì': 'ي',  # Ya (2nd expected character)
     'É': 'ه',  # Ta Marbuta
     'Ü': 'ى',  # Alif Maqsura
-    'Ä': 'ؤ',  # Waw with hamza was 'ئ',  # Ya with Hamza
+    'Ä': 'ؤ',  # Waw with hamza
     'Æ': 'ئ',  # Ya with Hamza
     'Á': 'ء',  # Hamza
-    'Â': 'أ',  # Alif with Hamza
+    'Â': 'أ',  # Alif with Hamza above (depends on author)
+    'Ã': 'أ',  # Alif with Hamza above (depends on author)
     'Å': 'إ',  # Alif with Hamza below (newly added)
-    'Ã': 'أ',  # Alif with Hamza above
 
     # Diacritics
     'à': 'ً',  # Tanween Fath
