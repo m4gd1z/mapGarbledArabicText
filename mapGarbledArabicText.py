@@ -68,6 +68,7 @@ windows_1256_to_arabic = {
 }
 
 # Read garbled text from an input file
+# Edit the paths to the input and output files
 input_file_path = '/path/to/input.sql'
 output_file_path = '/path/to/output.sql'
 
