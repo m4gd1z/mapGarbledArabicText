@@ -8,10 +8,10 @@ I was working on migrating an old website to a new hosting server. The old site 
 0. MAKE SURE you are working with a backup of your database. DO NOT work on your live database or you could risk corrupting it.
 1. Create two blank text files, name them input.sql and output.sql.
 2. Make sure your table's character set is utf8, and that collation is utf8mb4_unicode_ci.
-3. Export your table into sql dump file.
+3. Export your table into an sql dump file.
 4. Copy all the content of your sql dump file and paste it into input.sql.
 5. Edit the script, ensuring you have the correct paths to input.sql and output.sql.
-6. Run the script. This should populate output.sql with an SQL script to insert content with the corrected characters.
+6. Run the script. This should populate output.sql with an SQL script that will recreate your table and insert the content with the corrected characters.
 7. Rename your existing database table to indicate it is the original table (eg rename posts to post.OLD).
-8. Take the newly generated contents of output.sql and execute them in phpMyAdmin (or whatever client you use to interact with your database). This should recreate your table, showing the correct Arabic characters.
+8. Take the newly generated contents of output.sql and execute them in phpMyAdmin (or whatever client you use to interact with your database). This should recreate your table inserting the correct Arabic characters.
 9. Go back to step 3 and do steps 3-6 with your other tables.
